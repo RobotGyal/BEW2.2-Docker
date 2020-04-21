@@ -1,10 +1,11 @@
-<p align="center"><strong style="color: red;">❌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STOP: DO NOT CLONE THIS REPO &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❌</strong><br>Carefully <b>follow the instructions below</b> to ensure you <b>get credit</b> for this assignment.</p>
-
----
-
 # 🐳 docker-starter
 
-_Use this required starter pack for all assignments in [BEW 2.2: DevOps, Deployments &amp; Containers](https://make.sc/bew2.2). Follow the instructions below, and submit the resulting repository on [Gradescope](https://make.sc/trackbew2.2) by the assigned due date._
+This repo is to practice utilizing Docker, Dockerfiles, and Docker Containers. 
+
+My specific area of interest will be the `
+$ curl
+` command. 
+--- 
 
 ## 📂 Project Files
 
@@ -16,14 +17,8 @@ _Use this required starter pack for all assignments in [BEW 2.2: DevOps, Deploym
 | `Dockerfile` | **Implement solutions in this file**. |
 | `README.md` | Replace this `README` with content describing the purpose of your project. |
 
-## 🏁 Get Started
 
-1. [Import an existing repository on GitHub](https://github.com/new/import).
-1. Under `Your old repository's clone URL`, paste `https://github.com/make-school-labs/docker-starter`.
-1. Name your repository according to the assignment instructions.
-    <img src="https://github.com/Make-School-Courses/BEW-2.2-Docker-DevOps-Deployments/blob/master/Images/import.png?raw=true" width="60%">
-1. Click `Begin Import`.
-1. Locally clone your new copy of the starter code.
+
 
 ## 📦 Building & Running
 
