@@ -19,7 +19,28 @@ RUN npm install -g tldr
 RUN  tldr --version
 
 # Run additional `curl` commands
-RUN tldr curl
+# FIXME -> Error with updating cache and creating index
+# RUN tldr curl
 
-# ENDS - Gt tldr version
-CMD ["echo", "Successful Implementation"]
+# Get curl version data
+RUN curl --version
+
+# Run curl help to get all commands
+RUN curl -help
+
+# Set a 5 second timeout and GET google data
+RUN curl -m 5 google.com  
+
+# Get the header data from google and saves it in a file, shows progress bar
+RUN curl -# -o google_header.html -I google.com
+
+# prints contents of google_header file to terminal
+RUN cat google_header.html
+
+# ENDS 
+RUN echo "Successful Implementation"
+
+
+
+# ------ BUILD INSTRUCTIONS -----
+# 1. docker build -t robotgyal/alpine .
